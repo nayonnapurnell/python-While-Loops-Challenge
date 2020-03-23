@@ -32,11 +32,3 @@ print(f"That's great, {name}.  I'm pleased that you understand while loops now. 
 
 
 
-#Ask the user if they understand Python While loops
-   #If no, print("Ok, {name}, while loops in Python repeat as long as
-   # a certain Boolean condition is met.")
-
-
-    #if yes, they understand Python loops
-    #print "That's great, {name}.  I'm pleased that you understand
-    # while loops now.  That was getting repetitive."
