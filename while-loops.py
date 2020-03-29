@@ -2,7 +2,6 @@
 
 
 answer = "NO"
-keepGoing = True
 
 name = input("What's your name? ")
 print(f"{name}, do you understand Python while loops?")
@@ -18,8 +17,7 @@ while comprehensionResponse == answer:
 
         if comprehensionResponse == answer:
             print(f"{name}, now do you understand Python while loops?")
-        else:
-            print(f"That's great, {name}.  I'm pleased that you understand while loops now.  That was getting repetitive.")
+            continue
 
 print(f"That's great, {name}.  I'm pleased that you understand while loops now.  That was getting repetitive.")
 
